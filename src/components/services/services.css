@@ -1,0 +1,73 @@
+.services__container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.service{
+    background: var(--color-bg-variant);
+    border-radius:  0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+    padding: 0.8rem 1.2rem 0.8rem;
+}
+
+.service:hover{
+    background-color: transparent;
+    border-color:var(--color-bg-variant) ;
+    cursor: default;
+}
+.service__head{
+    background: var(--color-primary);
+    padding: 1.3rem;
+    border-radius:  0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0,0,0,0.2);
+    text-align: center;
+}
+.service__head h3{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+.service__list{
+    padding: 0.8rem;
+}
+.service__list li{
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+.service__list-icon{
+    color: var(--color-primary);
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 1.4rem;
+        /* Ensure a consistent size for the icon */
+        width: 1.4rem; /* Set a fixed width */
+        height: 1.4rem; /* Set a fixed height */
+        flex-shrink: 0;
+}
+
+.service__list p{
+    margin: 0;
+}
+
+/* ========  MEDIA QUERIES (MEDIUM DEVICES)========= */
+@media screen and (max-width: 1024px) {
+    .services__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .service{
+        height: auto;
+    }
+}
+
+/* ========  MEDIA QUERIES (SMALL DEVICES)========= */
+@media screen and (max-width: 600px) {
+    .services__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
