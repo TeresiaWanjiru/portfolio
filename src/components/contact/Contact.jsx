@@ -38,13 +38,13 @@ const Contact = () => {
             <BsLinkedin className="contact__option-icon" />
             <h4>LinkedIn</h4>
             <h5>Teresia Wanjiru</h5>
-            <a href="https://www.linkedin.com/in/teresiawanjiru/" target="_blank">Send me a message</a>
+            <a href="https://www.linkedin.com/in/teresiawanjiru/" target="_blank" rel="noreferrer">Send me a message</a>
           </article>
           <article className="contact__option">
             <IoLogoWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>+254794977241</h5>
-            <a href="https://wa.me/254794977241" target='_blank'>Send me a message</a>
+            <a href="https://wa.me/254794977241" target='_blank' rel="noreferrer">Send me a message</a>
           </article>
         </div>
 {/* end of contact options */}

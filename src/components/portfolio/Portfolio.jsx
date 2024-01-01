@@ -19,7 +19,7 @@ const Portfolio = () => {
         </div>
         <h3>React Weather App</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/react-weather-app.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/react-weather-app.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
@@ -30,7 +30,7 @@ const Portfolio = () => {
         </div>
         <h3>Heart-trail animation</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/heart-trail-animation.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/heart-trail-animation.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
@@ -41,7 +41,7 @@ const Portfolio = () => {
         </div>
         <h3>React Timer App</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/react-timer.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/react-timer.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
@@ -52,7 +52,7 @@ const Portfolio = () => {
         </div>
         <h3>Simple Calculator</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/calculator-app.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/calculator-app.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
@@ -63,7 +63,7 @@ const Portfolio = () => {
         </div>
         <h3>QR Scanner</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/qrcode-scanner.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/qrcode-scanner.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
@@ -74,7 +74,7 @@ const Portfolio = () => {
         </div>
         <h3>MERN Finance Dashboard</h3>
         <div className="portfolio_item-cta">
-        <a href="https://github.com/TeresiaWanjiru/Finance-Dashboard-Mern-application.git" className="btn" target='_blank'>Github</a>
+        <a href="https://github.com/TeresiaWanjiru/Finance-Dashboard-Mern-application.git" className="btn" target='_blank' rel="noreferrer">Github</a>
         {/* <a href="http://github.com" className="btn btn-primary" target='_blank'>Live Demo</a> */}
         </div>
       </article>
