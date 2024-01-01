@@ -26,6 +26,10 @@ const Experience = () => {
             </article>
             <article className="experience__details">
                <IoShieldCheckmark className="icon" />
+               <h4>TypeScript</h4>
+            </article>
+            <article className="experience__details">
+               <IoShieldCheckmark className="icon" />
                <h4>React</h4>
             </article>
             <article className="experience__details">
